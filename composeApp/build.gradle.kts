@@ -46,6 +46,7 @@ kotlin {
             implementation(libs.ktor.client.serialization)
             implementation(libs.ktor.client.logging)
             implementation(libs.decompose)
+            implementation(libs.bundles.mvikotlin)
             implementation(libs.decompose.compose)
             implementation(libs.kotlinx.serialization.json)
             implementation(libs.koin.core)

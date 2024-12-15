@@ -20,6 +20,7 @@ import org.jetbrains.compose.resources.Font
 import org.jetbrains.compose.resources.stringResource
 import org.jetbrains.compose.resources.vectorResource
 
+@Suppress("t")
 @Composable
 internal fun App() = AppTheme {
     Column(
